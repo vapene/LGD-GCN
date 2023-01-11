@@ -1,0 +1,37 @@
+log hyper-params:
+cpu: False
+cur_ddir: ./data/dataset/citation_networks/
+cur_mdir: ./data/model/cora_eval/
+datadir: ./data/dataset/
+datname: cora
+early: 100
+graph_type: knn
+hpm_opt: False
+is_print: True
+is_rdsp: False
+is_sav_model: True
+modeldir: ./data/model/
+nbsz: 50
+nepoch: 1000
+rd_trn_idx: None
+rd_tst_idx: None
+rd_val_idx: None
+record_tst: True
+rnd_seed: 330269
+div_lambda: 0.033
+dropout: 0.0
+gm_update_rate: 0.35
+latent_nnb_k: 4
+lr: 0.05
+ncaps: 4
+nhidden: 16
+nlayer: 4
+reg: 0.08
+routit: 7
+space_lambda: 0.88
+#instance x #feature ~ #class = 2708 x 1433 ~ 7
+dataset-standard-split
+epoch: 1/1000, epoch-loss: 1.9813, h-gm-reg-loss: (0.5942)0.6752, h-div-reg-loss: (0.6365)19.2865, trn-acc=14.2857%, val-acc=7.2000%, (tst) acc=9.1000%, 
+epoch: 2/1000, epoch-loss: 2.0909, h-gm-reg-loss: (0.3754)0.4266, h-div-reg-loss: (0.3697)11.2035, trn-acc=14.2857%, val-acc=12.2000%, (tst) acc=13.0000%, 
+epoch: 3/1000, epoch-loss: 1.9459, h-gm-reg-loss: (0.2387)0.2713, h-div-reg-loss: (0.3270)9.9095, trn-acc=35.7143%, val-acc=24.0000%, (tst) acc=23.0000%, 
+epoch: 4/1000, 
